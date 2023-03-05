@@ -59,6 +59,8 @@ public class SumRootToLeafNumbers{
       
     public static void main(String[] args) {
         Solution solution = new SumRootToLeafNumbers().new Solution();
+        solution.sumNumbers(Utils.parseToTreeNodeFromString("[1,2,3]"));
+//        solution.sumNumbers(Utils.parseToTreeNodeFromString("[4,9,0,5,1]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -83,7 +85,28 @@ public class SumRootToLeafNumbers{
             if (root == null) {
                 return 0;
             }
-            
+            if (root.left == null && root.right == null) {
+                return root.val;
+            }
+            return dfs(root, 0);
+        }
+
+        private int dfs(TreeNode root, int num) {
+            if (root == null) {
+                return 0;
+            }
+            num = num * 10 + root.val;
+            if (root.left == null && root.right == null) {
+                return num;
+            }
+            int ans = 0;
+            if (root.left != null) {
+                ans += dfs(root.left, num);
+            }
+            if (root.right != null) {
+                ans += dfs(root.right, num);
+            }
+            return ans;
         }
 
     }
