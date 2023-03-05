@@ -1,0 +1,58 @@
+### 解题思路
+
+1.gHashTable[256] 为ASCII表全集， 256字节，每个index标识该index的字符是否出现过。
+2.如果无相同字符， p2指针后移，同时置gHashTable标记
+3.如果有相同字符， p1指针后移至相同字符的下一个字符处， 同时清gHashTable标记。
+
+### 代码
+
+* c
+
+```c
+char gHashTable[256];
+bool isDuplicatedCh_new(char ch)
+{
+    if(gHashTable[ch]) {
+        return true;
+    } 
+    return false;
+}
+
+int lengthOfLongestSubstring(char * s){
+    if (s == NULL) {
+        return 0;
+    }
+    if (s[0] == '\0') {
+        return 0;
+    }
+    memset(gHashTable, 0, sizeof(gHashTable)); // clear ALL flags
+    char *p1 = s;
+    char *p2 = s;
+    int max = 0;
+    while (*p2) {
+        if (isDuplicatedCh_new(*p2)) { // check if duplicated by hash map 
+            int cnt = p2 - p1;
+            if (cnt > max) {
+                max = cnt;  //update variable:max
+            }
+            // move p1 to next
+            while (*p1 != *p2) {
+                gHashTable[*p1] = 0;  // reset flag before p1 moved
+                p1++;
+            }
+            gHashTable[*p1] = 0;  // reset flag before p1 moved
+            p1++;
+        } else {
+            gHashTable[*p2] = *p2; // set flag before p2 moved
+            p2++;  // move p2 to next
+        }        
+    }
+    // 最后一次
+    int num = p2 - p1;
+    if (num > max) {
+        max = num;  //update variable:max
+    }
+    return max;
+}
+```
+

@@ -1,0 +1,35 @@
+以每一个字符串为开始，向后截取记录下最长的字串。
+
+* 
+
+```
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        if(s.length()<=1){
+            return s.length();
+        }
+        List<String> list = new ArrayList<>();
+        String str = null;
+        for (int i = 0; i < s.length()-1; i++) {
+            int j = i+1;
+            str = s.substring(i,j);
+            while(!str.contains(String.valueOf(s.charAt(j)))){
+                j++;
+                str = s.substring(i,j);
+                if (j==s.length()){
+                    break;
+                }
+            }
+            list.add(str);
+        }
+        int t = 0;
+        for (String e:list) {
+            if (e.length()>t){
+                t = e.length();
+            }
+        }
+        return t;
+    }
+}
+```
+
