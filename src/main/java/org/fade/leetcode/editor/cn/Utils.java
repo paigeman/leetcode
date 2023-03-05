@@ -54,15 +54,15 @@ public class Utils {
             int index = 1;
             while (!queue.isEmpty()) {
                 int size = queue.size();
-                for (int i = 0; i < size && index < split.length; ++i) {
+                for (int i = 0; i < size; ++i) {
                     TreeNode poll = queue.poll();
-                    if (poll != null && !split[i].equals(NULL_STR)) {
-                        TreeNode left = new TreeNode(Integer.parseInt(split[i]));
+                    if (poll != null && index < split.length && !split[index].equals(NULL_STR)) {
+                        TreeNode left = new TreeNode(Integer.parseInt(split[index++]));
                         poll.left = left;
                         queue.offer(left);
                     }
-                    if (poll != null && i + 1 < split.length && !split[i + 1].equals(NULL_STR)) {
-                        TreeNode right = new TreeNode(Integer.parseInt(split[i + 1]));
+                    if (poll != null && index < split.length && !split[index].equals(NULL_STR)) {
+                        TreeNode right = new TreeNode(Integer.parseInt(split[index++]));
                         poll.right = right;
                         queue.offer(right);
                     }
