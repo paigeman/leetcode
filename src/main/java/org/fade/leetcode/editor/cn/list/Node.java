@@ -1,4 +1,4 @@
-package org.fade.leetcode.editor.cn;
+package org.fade.leetcode.editor.cn.list;
 
 public class Node {
     public int val;
