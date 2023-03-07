@@ -1,5 +1,7 @@
 package org.fade.leetcode.editor.cn;
 
+import org.fade.leetcode.editor.cn.graph.Node;
+
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -70,6 +72,46 @@ public class Utils {
             }
         }
         return root;
+    }
+
+    public static Node parseToGraphNodeFromString(String param) {
+        String substring = param.substring(1, param.length() - 1);
+        Matcher matcher = PATTERN.matcher(substring);
+        Node ans = null;
+        Map<Integer, Node> map = new HashMap<>(8);
+        if (matcher.find()) {
+            ans = new Node(1);
+            map.put(1, ans);
+            List<Node> neighbors = new ArrayList<>();
+            for (int num: parseToListFromString(matcher.group())) {
+                Node node = new Node(num);
+                neighbors.add(node);
+                map.put(num, node);
+            }
+            ans.neighbors = neighbors;
+        }
+        int val = 2;
+        while (matcher.find()) {
+            Node cur;
+            if (map.containsKey(val)) {
+                cur = map.get(val);
+            } else {
+                cur = new Node(val);
+            }
+            List<Node> neighbors = new ArrayList<>();
+            for (int num: parseToListFromString(matcher.group())) {
+                if (map.containsKey(num)) {
+                    neighbors.add(map.get(num));
+                } else {
+                    Node node = new Node(num);
+                    neighbors.add(node);
+                    map.put(num, node);
+                }
+            }
+            cur.neighbors = neighbors;
+            ++val;
+        }
+        return ans;
     }
 
 }

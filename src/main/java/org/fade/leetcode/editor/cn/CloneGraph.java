@@ -78,10 +78,13 @@ package org.fade.leetcode.editor.cn;
 
 import org.fade.leetcode.editor.cn.graph.Node;
 
+import java.util.*;
+
 public class CloneGraph{
       
     public static void main(String[] args) {
         Solution solution = new CloneGraph().new Solution();
+        solution.cloneGraph(Utils.parseToGraphNodeFromString("[[2,4],[1,3],[2,4],[1,3]]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -107,7 +110,42 @@ public class CloneGraph{
     
     class Solution {
         public Node cloneGraph(Node node) {
-            
+            Node root = null;
+            if (node != null) {
+                root = new Node(node.val);
+                Queue<Node> queue = new LinkedList<>();
+                queue.offer(root);
+                Set<Integer> visited = new HashSet<>(8);
+                Map<Integer, Node> map = new HashMap<>(8);
+                Map<Integer, Node> cmap = new HashMap<>(8);
+                map.put(root.val, node);
+                cmap.put(root.val, root);
+                while (!queue.isEmpty()) {
+                    int size = queue.size();
+                    for (int i = 0; i < size; ++i) {
+                        Node poll = queue.poll();
+                        if (poll != null && !visited.contains(poll.val)) {
+                            Node origin = map.get(poll.val);
+                            List<Node> nei = new ArrayList<>(origin.neighbors.size());
+                            for (Node n: origin.neighbors) {
+                                Node clone;
+                                if (cmap.containsKey(n.val)) {
+                                    clone = cmap.get(n.val);
+                                } else {
+                                    clone = new Node(n.val);
+                                    cmap.put(clone.val, clone);
+                                }
+                                map.put(clone.val, n);
+                                queue.offer(clone);
+                                nei.add(clone);
+                            }
+                            poll.neighbors = nei;
+                            visited.add(poll.val);
+                        }
+                    }
+                }
+            }
+            return root;
         }
     }
     //leetcode submit region end(Prohibit modification and deletion)
