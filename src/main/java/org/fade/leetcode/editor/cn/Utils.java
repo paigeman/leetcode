@@ -1,6 +1,7 @@
 package org.fade.leetcode.editor.cn;
 
 import org.fade.leetcode.editor.cn.graph.Node;
+import org.fade.leetcode.editor.cn.list.ListNode;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -112,6 +113,37 @@ public class Utils {
             ++val;
         }
         return ans;
+    }
+
+    public static ListNode parseToListNodeFromString(String param) {
+        int[] ints = parseToArrayFromString(param);
+        ListNode head = null;
+        if (ints.length > 0) {
+            head = new ListNode(ints[0]);
+            ListNode p = head;
+            for (int i = 1; i < ints.length; ++i) {
+                ListNode listNode = new ListNode(ints[i]);
+                p.next = listNode;
+                p = p.next;
+            }
+        }
+        return head;
+    }
+
+    public static ListNode parseToListNodeWithCircleFromString(String param, int pos) {
+        ListNode head = parseToListNodeFromString(param);
+        if (pos != -1) {
+            ListNode p = head, q;
+            for (int i = 0; i < pos; ++i) {
+                p = p.next;
+            }
+            q = p;
+            while (p.next != null) {
+                p = p.next;
+            }
+            p.next = q;
+        }
+        return head;
     }
 
 }
