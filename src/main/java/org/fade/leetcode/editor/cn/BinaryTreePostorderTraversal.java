@@ -43,6 +43,9 @@
   
 package org.fade.leetcode.editor.cn;
 
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 public class BinaryTreePostorderTraversal{
@@ -70,7 +73,42 @@ public class BinaryTreePostorderTraversal{
     class Solution {
 
         public List<Integer> postorderTraversal(TreeNode root) {
-            return null;
+            List<Integer> ans = new ArrayList<>(8);
+            // morris 遍历
+            TreeNode p = root;
+            while (p != null) {
+                TreeNode q = p.left;
+                if (q != null) {
+                    while (q.right != null && q.right != p) {
+                        q = q.right;
+                    }
+                    if (q.right == null) {
+                        q.right = p;
+                        p = p.left;
+                        continue;
+                    } else {
+                        q.right = null;
+                        traversal(p.left, ans);
+                    }
+                }
+                p = p.right;
+            }
+            traversal(root, ans);
+            return ans;
+        }
+
+        private void traversal(TreeNode head, List<Integer> ans) {
+            if (head != null) {
+                Deque<TreeNode> stack = new LinkedList<>();
+                while (head != null) {
+                    stack.push(head);
+                    head = head.right;
+                }
+                while (!stack.isEmpty()) {
+                    TreeNode pop = stack.pop();
+                    ans.add(pop.val);
+                }
+            }
         }
 
     }
