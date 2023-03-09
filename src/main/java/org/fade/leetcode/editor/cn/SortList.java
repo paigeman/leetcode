@@ -52,6 +52,7 @@ public class SortList{
       
     public static void main(String[] args) {
         Solution solution = new SortList().new Solution();
+        solution.sortList(Utils.parseToListNodeFromString("[4,2,1,3]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -68,7 +69,43 @@ public class SortList{
     class Solution {
 
         public ListNode sortList(ListNode head) {
-            return null;
+            return partition(head, null);
+        }
+
+        private ListNode partition(ListNode start, ListNode end) {
+            if (start == null) {
+                return null;
+            }
+            if (start.next == null) {
+                return start;
+            }
+            ListNode p = start, q = start;
+            while (p != null && p.next != null && p.next.next != end) {
+                q = q.next;
+                p = p.next.next;
+            }
+            ListNode r = q.next;
+            q.next = null;
+            ListNode dummy = new ListNode(-1), s = dummy;
+            ListNode left = partition(start, null);
+            ListNode right = partition(r, end);
+            while (left != null && right != null) {
+                if (left.val < right.val) {
+                    s.next = left;
+                    left = left.next;
+                } else {
+                    s.next = right;
+                    right = right.next;
+                }
+                s = s.next;
+            }
+            if (left != null) {
+                s.next = left;
+            }
+            if (right != null) {
+                s.next = right;
+            }
+            return dummy.next;
         }
 
     }
