@@ -14,7 +14,7 @@ package org.fade.leetcode.editor.cn;
 public class $!velocityTool.camelCaseName(${question.titleSlug})Main {
       
     public static void main(String[] args) {
-        Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
+        Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})Main().new Solution();
     }
     
     #foreach( $line in $question.code.split("\r?\n") )

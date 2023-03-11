@@ -97,7 +97,7 @@ import org.fade.leetcode.editor.cn.list.ListNode;
 public class IntersectionOfTwoLinkedListsMain {
       
     public static void main(String[] args) {
-        Solution solution = new IntersectionOfTwoLinkedLists().new Solution();
+        Solution solution = new IntersectionOfTwoLinkedListsMain().new Solution();
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

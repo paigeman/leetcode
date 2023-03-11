@@ -37,7 +37,7 @@ package org.fade.leetcode.editor.cn;
 public class MaximumGapMain {
       
     public static void main(String[] args) {
-        Solution solution = new MaximumGap().new Solution();
+        Solution solution = new MaximumGapMain().new Solution();
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

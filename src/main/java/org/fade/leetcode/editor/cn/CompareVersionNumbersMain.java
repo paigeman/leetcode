@@ -63,7 +63,7 @@ package org.fade.leetcode.editor.cn;
 public class CompareVersionNumbersMain {
       
     public static void main(String[] args) {
-        Solution solution = new CompareVersionNumbers().new Solution();
+        Solution solution = new CompareVersionNumbersMain().new Solution();
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

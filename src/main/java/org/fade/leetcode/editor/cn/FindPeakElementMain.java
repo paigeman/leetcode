@@ -44,7 +44,7 @@ package org.fade.leetcode.editor.cn;
 public class FindPeakElementMain {
       
     public static void main(String[] args) {
-        Solution solution = new FindPeakElement().new Solution();
+        Solution solution = new FindPeakElementMain().new Solution();
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
