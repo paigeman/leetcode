@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public class Utils {
 
-    private static final Pattern PATTERN = Pattern.compile("\\[[\\d,]*]");
+    private static final Pattern PATTERN = Pattern.compile("\\[[-\\d,]*]");
 
     private static final String NULL_STR = "null";
 
