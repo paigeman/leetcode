@@ -29,6 +29,12 @@ public class Utils {
         return ans;
     }
 
+    public static int[][] parseToArrayArrayFromString(String param) {
+        List<List<Integer>> lists = parseToListListFromString(param);
+        return lists.stream().map(x -> x.stream().mapToInt(Integer::intValue)
+                .toArray()).toArray(int[][]::new);
+    }
+
     public static List<Integer> parseToListFromString(String param) {
         String substring = param.substring(1, param.length() - 1);
         return Arrays.stream(substring.split(","))
