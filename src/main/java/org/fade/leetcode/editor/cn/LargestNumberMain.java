@@ -33,17 +33,46 @@
   
 package org.fade.leetcode.editor.cn;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.stream.Collectors;
+
 public class LargestNumberMain {
       
     public static void main(String[] args) {
         Solution solution = new LargestNumberMain().new Solution();
+//        solution.largestNumber(Utils.parseToArrayFromString("[432,43243]"));
+        solution.largestNumber(Utils.parseToArrayFromString("[8308,8308,830]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
         public String largestNumber(int[] nums) {
+            if (nums[0] == 0 && Arrays.stream(nums).distinct().count() == 1) {
+                return "0";
+            }
+            return Arrays.stream(nums).mapToObj(Integer::toString)
+                    .sorted(this::compare)
+                    .collect(Collectors.joining());
+        }
 
+        private int compare(String x, String y) {
+            while (true) {
+                boolean flag = true;
+                while (!x.equals(y) && x.startsWith(y)) {
+                    flag = false;
+                    x = x.substring(y.length());
+                }
+                while (!x.equals(y) && y.startsWith(x)) {
+                    flag = false;
+                    y = y.substring(x.length());
+                }
+                if (flag) {
+                    break;
+                }
+            }
+            return y.compareTo(x);
         }
 
     }
