@@ -289,6 +289,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindValidMatrixGivenRowAndColumnSumsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/FindValidMatrixGivenRowAndColumnSumsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1605" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindValidMatrixGivenRowAndColumnSumsMain.java" />
+              <option name="titleSlug" value="find-valid-matrix-given-row-and-column-sums" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FractionToRecurringDecimalMain.java">
           <value>
             <LeetcodeEditor>
@@ -330,6 +341,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/IntersectionOfTwoLinkedListsMain.java" />
               <option name="titleSlug" value="intersection-of-two-linked-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LargestNumber.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/LargestNumberMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn179" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LargestNumberMain.java" />
+              <option name="titleSlug" value="largest-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LargestNumberMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/LargestNumberMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn179" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LargestNumberMain.java" />
+              <option name="titleSlug" value="largest-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LargestNumberMain.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/LargestNumberMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn179" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LargestNumberMain.java" />
+              <option name="titleSlug" value="largest-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -498,6 +542,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NthHighestSalary.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/NthHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn177" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NthHighestSalary.sql" />
+              <option name="titleSlug" value="nth-highest-salary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PalindromePartitioning.java">
           <value>
             <LeetcodeEditor>
@@ -542,6 +597,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/RankScores.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/RankScores.md" />
+              <option name="frontendQuestionId" value="leetcode.cn178" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/RankScores.sql" />
+              <option name="titleSlug" value="rank-scores" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReorderList.java">
           <value>
             <LeetcodeEditor>
@@ -561,6 +627,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseWordsInAString.java" />
               <option name="titleSlug" value="reverse-words-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SecondHighestSalary.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SecondHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn176" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SecondHighestSalary.sql" />
+              <option name="titleSlug" value="second-highest-salary" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SecondHighestSalaryMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SecondHighestSalary.md" />
+              <option name="frontendQuestionId" value="leetcode.cn176" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SecondHighestSalary.sql" />
+              <option name="titleSlug" value="second-highest-salary" />
             </LeetcodeEditor>
           </value>
         </entry>
