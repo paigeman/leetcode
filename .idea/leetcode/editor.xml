@@ -157,6 +157,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ConsecutiveNumbers.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ConsecutiveNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn180" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ConsecutiveNumbers.sql" />
+              <option name="titleSlug" value="consecutive-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ConsecutiveNumbersMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ConsecutiveNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn180" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ConsecutiveNumbers.sql" />
+              <option name="titleSlug" value="consecutive-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CopyListWithRandomPointer.java">
           <value>
             <LeetcodeEditor>
@@ -198,6 +220,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DungeonGameMain.java" />
               <option name="titleSlug" value="dungeon-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/EmployeesEarningMoreThanTheirManagers.sql">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/EmployeesEarningMoreThanTheirManagers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn181" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/EmployeesEarningMoreThanTheirManagers.sql" />
+              <option name="titleSlug" value="employees-earning-more-than-their-managers" />
             </LeetcodeEditor>
           </value>
         </entry>
