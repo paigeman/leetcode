@@ -48,6 +48,8 @@
   
 package org.fade.leetcode.editor.cn;
 
+import org.fade.leetcode.editor.cn.util.Utils;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -55,7 +57,7 @@ public class NumberOfIslandsMain {
       
     public static void main(String[] args) {
         Solution solution = new NumberOfIslandsMain().new Solution();
-//        solution.numIslands()
+        solution.numIslands(Utils.parseToCharArrayArrayFromString("[ [\"1\",\"1\",\"1\",\"1\",\"0\"], [\"1\",\"1\",\"0\",\"1\",\"0\"], [\"1\",\"1\",\"0\",\"0\",\"0\"], [\"0\",\"0\",\"0\",\"0\",\"0\"] ]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

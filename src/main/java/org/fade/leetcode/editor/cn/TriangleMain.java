@@ -59,7 +59,7 @@ public class TriangleMain {
       
     public static void main(String[] args) {
         Solution solution = new TriangleMain().new Solution();
-        solution.minimumTotal(Utils.parseToListListFromString("[[2],[3,4],[6,5,7],[4,1,8,3]]"));
+        solution.minimumTotal(Utils.parseToListListFromString("[[2],[3,4],[6,5,7],[4,1,8,3]]", Integer::parseInt, Utils.INT_PATTERN));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

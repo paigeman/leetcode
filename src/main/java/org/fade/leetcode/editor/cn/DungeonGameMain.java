@@ -57,10 +57,10 @@ public class DungeonGameMain {
       
     public static void main(String[] args) {
         Solution solution = new DungeonGameMain().new Solution();
-//        solution.calculateMinimumHP(Utils.parseToArrayArrayFromString("[[-2,-3,3],[-5,-10,1],[10,30,-5]]"));
-//        solution.calculateMinimumHP(Utils.parseToArrayArrayFromString("[[-3,5]]"));
-//        solution.calculateMinimumHP(Utils.parseToArrayArrayFromString("[[2,1],[1,-1]]"));
-        solution.calculateMinimumHP(Utils.parseToArrayArrayFromString("[[1,-3,3],[0,-2,0],[-3,-3,-3]]"));
+//        solution.calculateMinimumHP(Utils.parseToIntArrayArrayFromString("[[-2,-3,3],[-5,-10,1],[10,30,-5]]"));
+//        solution.calculateMinimumHP(Utils.parseToIntArrayArrayFromString("[[-3,5]]"));
+//        solution.calculateMinimumHP(Utils.parseToIntArrayArrayFromString("[[2,1],[1,-1]]"));
+        solution.calculateMinimumHP(Utils.parseToIntArrayArrayFromString("[[1,-3,3],[0,-2,0],[-3,-3,-3]]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

@@ -5,6 +5,7 @@ import org.fade.leetcode.editor.cn.graph.Node;
 import org.fade.leetcode.editor.cn.list.ListNode;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,7 +17,9 @@ import java.util.regex.Pattern;
  */
 public class Utils {
 
-    private static final Pattern PATTERN = Pattern.compile("\\[[-\\d,]*]");
+    public static final Pattern INT_PATTERN = Pattern.compile("\\[[-\\d,]*]");
+
+    public static final Pattern CHAR_PATTERN = Pattern.compile("\\[[-\\d,\"]*]");
 
     private static final String NULL_STR = "null";
 
@@ -30,25 +33,38 @@ public class Utils {
         return ans;
     }
 
-    public static int[][] parseToArrayArrayFromString(String param) {
-        List<List<Integer>> lists = parseToListListFromString(param);
+    public static int[][] parseToIntArrayArrayFromString(String param) {
+        List<List<Integer>> lists = parseToListListFromString(param, Integer::parseInt, INT_PATTERN);
         return lists.stream().map(x -> x.stream().mapToInt(Integer::intValue)
                 .toArray()).toArray(int[][]::new);
     }
 
-    public static List<Integer> parseToListFromString(String param) {
+    public static char[][] parseToCharArrayArrayFromString(String param) {
+        List<List<Character>> lists = parseToListListFromString(param, x -> x.charAt(1), CHAR_PATTERN);
+        char[][] ans = new char[lists.size()][];
+        for (int i = 0; i < lists.size(); ++i) {
+            List<Character> characters = lists.get(i);
+            ans[i] = new char[characters.size()];
+            for (int j = 0; j < characters.size(); ++j) {
+                ans[i][j] = characters.get(j);
+            }
+        }
+        return ans;
+    }
+
+    public static <T> List<T> parseToListFromString(String param, Function<String, T> function) {
         String substring = param.substring(1, param.length() - 1);
         return Arrays.stream(substring.split(","))
-                .mapToInt(Integer::parseInt)
+                .map(function)
                 .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
     }
 
-    public static List<List<Integer>> parseToListListFromString(String param) {
+    public static <T> List<List<T>> parseToListListFromString(String param, Function<String, T> function, Pattern pattern) {
         String substring = param.substring(1, param.length() - 1);
-        Matcher matcher = PATTERN.matcher(substring);
-        List<List<Integer>> ans = new ArrayList<>(8);
+        Matcher matcher = pattern.matcher(substring);
+        List<List<T>> ans = new ArrayList<>(8);
         while (matcher.find()) {
-            ans.add(parseToListFromString(matcher.group()));
+            ans.add(parseToListFromString(matcher.group(), function));
         }
         return ans;
     }
@@ -84,14 +100,14 @@ public class Utils {
 
     public static Node parseToGraphNodeFromString(String param) {
         String substring = param.substring(1, param.length() - 1);
-        Matcher matcher = PATTERN.matcher(substring);
+        Matcher matcher = INT_PATTERN.matcher(substring);
         Node ans = null;
         Map<Integer, Node> map = new HashMap<>(8);
         if (matcher.find()) {
             ans = new Node(1);
             map.put(1, ans);
             List<Node> neighbors = new ArrayList<>();
-            for (int num: parseToListFromString(matcher.group())) {
+            for (int num: parseToListFromString(matcher.group(), Integer::parseInt)) {
                 Node node = new Node(num);
                 neighbors.add(node);
                 map.put(num, node);
@@ -107,7 +123,7 @@ public class Utils {
                 cur = new Node(val);
             }
             List<Node> neighbors = new ArrayList<>();
-            for (int num: parseToListFromString(matcher.group())) {
+            for (int num: parseToListFromString(matcher.group(), Integer::parseInt)) {
                 if (map.containsKey(num)) {
                     neighbors.add(map.get(num));
                 } else {
@@ -129,8 +145,7 @@ public class Utils {
             head = new ListNode(ints[0]);
             ListNode p = head;
             for (int i = 1; i < ints.length; ++i) {
-                ListNode listNode = new ListNode(ints[i]);
-                p.next = listNode;
+                p.next = new ListNode(ints[i]);
                 p = p.next;
             }
         }

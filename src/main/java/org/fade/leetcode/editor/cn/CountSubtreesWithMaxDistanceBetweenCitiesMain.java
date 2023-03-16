@@ -64,7 +64,7 @@ public class CountSubtreesWithMaxDistanceBetweenCitiesMain {
       
     public static void main(String[] args) {
         Solution solution = new CountSubtreesWithMaxDistanceBetweenCitiesMain().new Solution();
-        solution.countSubgraphsForEachDiameter(4, Utils.parseToArrayArrayFromString("[[1,2],[2,3],[2,4]]"));
+        solution.countSubgraphsForEachDiameter(4, Utils.parseToIntArrayArrayFromString("[[1,2],[2,3],[2,4]]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

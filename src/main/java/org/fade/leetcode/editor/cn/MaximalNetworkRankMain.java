@@ -68,7 +68,7 @@ public class MaximalNetworkRankMain {
       
     public static void main(String[] args) {
         Solution solution = new MaximalNetworkRankMain().new Solution();
-        solution.maximalNetworkRank(8, Utils.parseToArrayArrayFromString("[[0,1],[1,2],[2,3],[2,4],[5,6],[5,7]]"));
+        solution.maximalNetworkRank(8, Utils.parseToIntArrayArrayFromString("[[0,1],[1,2],[2,3],[2,4],[5,6],[5,7]]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
