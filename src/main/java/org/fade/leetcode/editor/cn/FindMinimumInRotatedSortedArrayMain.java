@@ -58,6 +58,8 @@
   
 package org.fade.leetcode.editor.cn;
 
+import org.fade.leetcode.editor.cn.util.Utils;
+
 public class FindMinimumInRotatedSortedArrayMain {
       
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
-package org.fade.leetcode.editor.cn;
+package org.fade.leetcode.editor.cn.util;
 
+import org.fade.leetcode.editor.cn.TreeNode;
 import org.fade.leetcode.editor.cn.graph.Node;
 import org.fade.leetcode.editor.cn.list.ListNode;
 
