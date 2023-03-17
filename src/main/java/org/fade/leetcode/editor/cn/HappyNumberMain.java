@@ -46,17 +46,36 @@
   
 package org.fade.leetcode.editor.cn;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class HappyNumberMain {
       
     public static void main(String[] args) {
         Solution solution = new HappyNumberMain().new Solution();
+        solution.isHappy(19);
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
         public boolean isHappy(int n) {
-            return false;
+            Map<Integer, Integer> map = new HashMap<>(8);
+            while (n != 1) {
+                if (map.containsKey(n)) {
+                    return false;
+                }
+                int on = n;
+                int tmp = 0;
+                while (n != 0) {
+                    int pos = n % 10;
+                    tmp += pos * pos;
+                    n /= 10;
+                }
+                map.put(on, tmp);
+                n = tmp;
+            }
+            return true;
         }
 
     }
