@@ -89,7 +89,7 @@ public class CourseScheduleMain {
                 Set<Integer> integers = map.get(poll);
                 if (integers != null) {
                     for (int num: integers) {
-                        Integer integer = inDegree[num];
+                        int integer = inDegree[num];
                         --integer;
                         if (integer == 0) {
                             queue.offer(num);

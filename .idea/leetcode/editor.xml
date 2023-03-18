@@ -520,6 +520,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ImplementTriePrefixTreeMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ImplementTriePrefixTreeMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn208" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ImplementTriePrefixTreeMain.java" />
+              <option name="titleSlug" value="implement-trie-prefix-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/InsertionSortList.java">
           <value>
             <LeetcodeEditor>
@@ -1001,6 +1012,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SortList.java" />
               <option name="titleSlug" value="sort-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SplitTwoStringsToMakePalindromeMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SplitTwoStringsToMakePalindromeMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1616" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SplitTwoStringsToMakePalindromeMain.java" />
+              <option name="titleSlug" value="split-two-strings-to-make-palindrome" />
             </LeetcodeEditor>
           </value>
         </entry>
