@@ -50,29 +50,69 @@ trie.search("app");     // 返回 True
   
 package org.fade.leetcode.editor.cn;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ImplementTriePrefixTreeMain {
       
     public static void main(String[] args) {
-        Trie solution = new ImplementTriePrefixTreeMain().new Trie();
+        Trie trie = new ImplementTriePrefixTreeMain().new Trie();
+        trie.insert("apple");
+        // 返回 True
+        System.out.println(trie.search("apple"));
+        // 返回 False
+        System.out.println(trie.search("app"));
+        // 返回 True
+        System.out.println(trie.startsWith("app"));
+        trie.insert("app");
+        // 返回 True
+        System.out.println(trie.search("app"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class Trie {
+
+        private String val;
+
+        private final Map<Character, Trie> map;
     
         public Trie() {
-    
+            this.map = new HashMap<>(8);
         }
         
         public void insert(String word) {
-    
+            Trie cur = this;
+            for (int i = 0; i < word.length(); ++i) {
+                char c = word.charAt(i);
+                if (cur.map.containsKey(c)) {
+                    cur = cur.map.get(c);
+                } else {
+                    Trie next = new Trie();
+                    cur.map.put(c, next);
+                    cur = next;
+                }
+            }
+            cur.val = word;
         }
         
         public boolean search(String word) {
-            return false;
+            Trie cur = this;
+            int i = 0;
+            for (; i < word.length() &&
+                    cur.map.containsKey(word.charAt(i)); ++i) {
+                cur = cur.map.get(word.charAt(i));
+            }
+            return word.equals(cur.val);
         }
         
         public boolean startsWith(String prefix) {
-            return false;
+            Trie cur = this;
+            int i = 0;
+            for (; i < prefix.length() &&
+                    cur.map.containsKey(prefix.charAt(i)); ++i) {
+                cur = cur.map.get(prefix.charAt(i));
+            }
+            return i == prefix.length();
         }
     }
     
