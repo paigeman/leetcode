@@ -355,6 +355,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DesignAddAndSearchWordsDataStructureMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/DesignAddAndSearchWordsDataStructureMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn211" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DesignAddAndSearchWordsDataStructureMain.java" />
+              <option name="titleSlug" value="design-add-and-search-words-data-structure" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DungeonGameMain.java">
           <value>
             <LeetcodeEditor>
