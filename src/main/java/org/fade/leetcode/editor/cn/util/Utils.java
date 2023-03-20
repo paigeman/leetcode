@@ -19,7 +19,7 @@ public class Utils {
 
     public static final Pattern INT_PATTERN = Pattern.compile("\\[[-\\d,]*]");
 
-    public static final Pattern CHAR_PATTERN = Pattern.compile("\\[[-\\d,\"]*]");
+    public static final Pattern CHAR_PATTERN = Pattern.compile("\\[.*?]");
 
     private static final String NULL_STR = "null";
 
