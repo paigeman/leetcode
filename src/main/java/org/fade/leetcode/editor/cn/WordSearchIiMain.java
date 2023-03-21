@@ -51,7 +51,8 @@ public class WordSearchIiMain {
       
     public static void main(String[] args) {
         Solution solution = new WordSearchIiMain().new Solution();
-        solution.findWords(Utils.parseToCharArrayArrayFromString("[[\"o\",\"a\",\"b\",\"n\"],[\"o\",\"t\",\"a\",\"e\"],[\"a\",\"h\",\"k\",\"r\"],[\"a\",\"f\",\"l\",\"v\"]]"), Utils.parseToStringArrayFromString("[\"oa\",\"oaa\"]"));
+//        solution.findWords(Utils.parseToCharArrayArrayFromString("[[\"o\",\"a\",\"b\",\"n\"],[\"o\",\"t\",\"a\",\"e\"],[\"a\",\"h\",\"k\",\"r\"],[\"a\",\"f\",\"l\",\"v\"]]"), Utils.parseToStringArrayFromString("[\"oa\",\"oaa\"]"));
+        solution.findWords(Utils.parseToCharArrayArrayFromString("[[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]]"), Utils.parseToStringArrayFromString("[\"oath\",\"pea\",\"eat\",\"rain\",\"oathi\",\"oathk\",\"oathf\",\"oate\",\"oathii\",\"oathfi\",\"oathfii\"]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -61,6 +62,8 @@ public class WordSearchIiMain {
             int m = board.length;
             int n = board[0].length;
             List<String> ans = new ArrayList<>();
+            boolean[][] visited = new boolean[m][n];
+            StringBuilder builder = new StringBuilder();
             Trie trie = new Trie();
             for (String word: words) {
                 trie.insert(word);
@@ -69,7 +72,7 @@ public class WordSearchIiMain {
                 for (int j = 0; j < n; ++j) {
                     int index = board[i][j] - 'a';
                     if (trie.children[index] != null) {
-
+                        traceback(ans, builder, visited, trie, board, i, j);
                     }
                 }
             }
@@ -78,7 +81,34 @@ public class WordSearchIiMain {
 
         private void traceback(List<String> ans, StringBuilder builder, boolean[][] visited, Trie trie, char[][] board, int i, int j) {
             int index = board[i][j] - 'a';
-
+            Trie child = trie.children[index];
+            if (child == null) {
+                return;
+            }
+            builder.append(board[i][j]);
+            if (child.isEnd && !child.isAdded) {
+                child.isAdded = true;
+                ans.add(builder.toString());
+                if (!child.hasChildren) {
+                    builder.deleteCharAt(builder.length() - 1);
+                    return;
+                }
+            }
+            visited[i][j] = true;
+            if (j < board[0].length - 1 && !visited[i][j + 1]) {
+                traceback(ans, builder, visited, child, board, i, j + 1);
+            }
+            if (j > 0 && !visited[i][j - 1]) {
+                traceback(ans, builder, visited, child, board, i, j - 1);
+            }
+            if (i < board.length - 1 && !visited[i + 1][j]) {
+                traceback(ans, builder, visited, child, board, i + 1, j);
+            }
+            if (i > 0 && !visited[i - 1][j]) {
+                traceback(ans, builder, visited, child, board, i - 1, j);
+            }
+            visited[i][j] = false;
+            builder.deleteCharAt(builder.length() - 1);
         }
 
 //        private boolean traceback(char[][] board, String word, boolean[][] visited, int i, int j, int k) {
@@ -111,6 +141,10 @@ public class WordSearchIiMain {
 
             private boolean isEnd = false;
 
+            private boolean isAdded = false;
+
+            private boolean hasChildren = false;
+
             private void insert(String param) {
                 Trie cur = this;
                 for (int i = 0; i < param.length(); ++i) {
@@ -120,6 +154,7 @@ public class WordSearchIiMain {
                     } else {
                         Trie next = new Trie();
                         cur.children[index] = next;
+                        cur.hasChildren = true;
                         cur = next;
                     }
                 }
