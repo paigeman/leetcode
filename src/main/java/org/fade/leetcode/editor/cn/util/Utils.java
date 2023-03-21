@@ -33,6 +33,12 @@ public class Utils {
         return ans;
     }
 
+    public static String[] parseToStringArrayFromString(String param) {
+        String substring = param.substring(1, param.length() - 1);
+        String[] split = substring.split("(?<=\"),(?=\")");
+        return Arrays.stream(split).map(x -> x.substring(1, x.length() - 1)).toArray(String[]::new);
+    }
+
     public static int[][] parseToIntArrayArrayFromString(String param) {
         List<List<Integer>> lists = parseToListListFromString(param, Integer::parseInt, INT_PATTERN);
         return lists.stream().map(x -> x.stream().mapToInt(Integer::intValue)

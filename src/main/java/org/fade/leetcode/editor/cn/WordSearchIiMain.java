@@ -42,19 +42,92 @@
   
 package org.fade.leetcode.editor.cn;
 
+import org.fade.leetcode.editor.cn.util.Utils;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class WordSearchIiMain {
       
     public static void main(String[] args) {
         Solution solution = new WordSearchIiMain().new Solution();
+        solution.findWords(Utils.parseToCharArrayArrayFromString("[[\"o\",\"a\",\"b\",\"n\"],[\"o\",\"t\",\"a\",\"e\"],[\"a\",\"h\",\"k\",\"r\"],[\"a\",\"f\",\"l\",\"v\"]]"), Utils.parseToStringArrayFromString("[\"oa\",\"oaa\"]"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public List<String> findWords(char[][] board, String[] words) {
-            return null;
+            int m = board.length;
+            int n = board[0].length;
+            List<String> ans = new ArrayList<>();
+            Trie trie = new Trie();
+            for (String word: words) {
+                trie.insert(word);
+            }
+            for (int i = 0; i < m; ++i) {
+                for (int j = 0; j < n; ++j) {
+                    int index = board[i][j] - 'a';
+                    if (trie.children[index] != null) {
+
+                    }
+                }
+            }
+            return ans;
         }
+
+        private void traceback(List<String> ans, StringBuilder builder, boolean[][] visited, Trie trie, char[][] board, int i, int j) {
+            int index = board[i][j] - 'a';
+
+        }
+
+//        private boolean traceback(char[][] board, String word, boolean[][] visited, int i, int j, int k) {
+//            if (visited[i][j] || board[i][j] != word.charAt(k)) {
+//                return false;
+//            }
+//            if (k == word.length() - 1) {
+//                return true;
+//            }
+//            visited[i][j] = true;
+//            if (j < board[0].length - 1 && traceback(board, word, visited, i, j + 1, k + 1)) {
+//                return true;
+//            }
+//            if (j > 0 && traceback(board, word, visited, i, j - 1, k + 1)) {
+//                return true;
+//            }
+//            if (i < board.length - 1 && traceback(board, word, visited, i + 1, j, k + 1)) {
+//                return true;
+//            }
+//            if (i > 0 && traceback(board, word, visited, i - 1, j, k + 1)) {
+//                return true;
+//            }
+//            visited[i][j] = false;
+//            return false;
+//        }
+
+        private class Trie {
+
+            private final Trie[] children = new Trie[26];
+
+            private boolean isEnd = false;
+
+            private void insert(String param) {
+                Trie cur = this;
+                for (int i = 0; i < param.length(); ++i) {
+                    int index = param.charAt(i) - 'a';
+                    if (cur.children[index] != null) {
+                        cur = cur.children[index];
+                    } else {
+                        Trie next = new Trie();
+                        cur.children[index] = next;
+                        cur = next;
+                    }
+                }
+                cur.isEnd = true;
+            }
+
+        }
+
     }
     //leetcode submit region end(Prohibit modification and deletion)
         
