@@ -51,6 +51,9 @@ public class HouseRobberMain {
             // 如果数组只有一个元素，nums[0]
             // 如果数组有两个元素，max(nums[0],nums[1])
             // 如果数组有三个元素，max(nums[0] + nums[2], nums[1])
+            // 如果数组有四个元素，max(nums[0] + nums[2], nums[0] + nums[3], nums[1] + nums[3])
+            // 如果数组有五个元素，max(nums[0] + nums[2] + nums[4], nums[0] + nums[3],
+            // nums[0] + nums[4], nums[1] + nums[3], nums[1] + nums[4]...)
             return 0;
         }
 
