@@ -641,6 +641,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ImplementStackUsingQueuesMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ImplementStackUsingQueuesMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn225" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ImplementStackUsingQueuesMain.java" />
+              <option name="titleSlug" value="implement-stack-using-queues" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ImplementTriePrefixTreeMain.java">
           <value>
             <LeetcodeEditor>
