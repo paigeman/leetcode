@@ -685,6 +685,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/InvertBinaryTreeMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/InvertBinaryTreeMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn226" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/InvertBinaryTreeMain.java" />
+              <option name="titleSlug" value="invert-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/IsomorphicStringsMain.java">
           <value>
             <LeetcodeEditor>
