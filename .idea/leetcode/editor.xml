@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/BestTeamWithNoConflictsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/BestTeamWithNoConflictsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1626" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/BestTeamWithNoConflictsMain.java" />
+              <option name="titleSlug" value="best-team-with-no-conflicts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/BestTimeToBuyAndSellStock.java">
           <value>
             <LeetcodeEditor>
@@ -286,6 +297,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CorrectABinaryTree.java" />
               <option name="titleSlug" value="correct-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CountCompleteTreeNodesMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/CountCompleteTreeNodesMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn222" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CountCompleteTreeNodesMain.java" />
+              <option name="titleSlug" value="count-complete-tree-nodes" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -814,6 +836,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaximalNetworkRankMain.java" />
               <option name="titleSlug" value="maximal-network-rank" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaximalSquareMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MaximalSquareMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn221" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaximalSquareMain.java" />
+              <option name="titleSlug" value="maximal-square" />
             </LeetcodeEditor>
           </value>
         </entry>
