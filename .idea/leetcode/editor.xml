@@ -1268,6 +1268,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SummaryRangesMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SummaryRangesMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn228" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SummaryRangesMain.java" />
+              <option name="titleSlug" value="summary-ranges" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SurroundedRegions.java">
           <value>
             <LeetcodeEditor>
