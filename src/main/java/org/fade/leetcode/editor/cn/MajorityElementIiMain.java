@@ -41,7 +41,10 @@
   
 package org.fade.leetcode.editor.cn;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MajorityElementIiMain {
       
@@ -53,7 +56,22 @@ public class MajorityElementIiMain {
     class Solution {
 
         public List<Integer> majorityElement(int[] nums) {
-
+            List<Integer> ans = new ArrayList<>(8);
+            int length = nums.length;
+            Map<Integer, Integer> map = new HashMap<>(8);
+            for (int num: nums) {
+                Integer integer = map.get(num);
+                if (integer == null) {
+                    integer = 1;
+                    map.put(num, integer);
+                } else {
+                    map.put(num, ++integer);
+                }
+                if (integer == length / 3 + 1) {
+                    ans.add(num);
+                }
+            }
+            return ans;
         }
 
     }
