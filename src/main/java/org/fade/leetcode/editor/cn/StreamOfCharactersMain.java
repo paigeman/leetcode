@@ -70,7 +70,7 @@ public class StreamOfCharactersMain {
       
     public static void main(String[] args) {
 //        case1();
-
+        case2();
     }
 
     private static void case1() {
@@ -103,33 +103,12 @@ public class StreamOfCharactersMain {
 
     private static void case2() {
         StreamChecker streamChecker = new StreamOfCharactersMain().new StreamChecker(Utils.parseToStringArrayFromString("[\"ab\",\"ba\",\"aaab\",\"abab\",\"baa\"]"));
-        // false
-        System.out.println(streamChecker.query('a'));
-        // false
-        System.out.println(streamChecker.query('a'));
-        // false
-        System.out.println(streamChecker.query('a'));
-        // false
-        System.out.println(streamChecker.query('a'));
-        // false
-        System.out.println(streamChecker.query('a'));
-        // true
-        System.out.println(streamChecker.query('b'));
-        // true
-        System.out.println(streamChecker.query('a'));
-        // true
-        System.out.println(streamChecker.query('b'));
-        // true
-        System.out.println(streamChecker.query('a'));
-        // true
-        System.out.println(streamChecker.query('b'));
-        // false
-        System.out.println(streamChecker.query('b'));
-        // false
-        System.out.println(streamChecker.query('b'));
-        // true
-        System.out.println(streamChecker.query('a'));
-        // ...
+        String[] methods = Utils.parseToStringArrayFromString("[\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\"]");
+        char[] params = Utils.parseToCharArrayFromString("[" + "[\"a\"],[\"a\"],[\"a\"],[\"a\"],[\"a\"],[\"b\"],[\"a\"],[\"b\"],[\"a\"],[\"b\"],[\"b\"],[\"b\"],[\"a\"],[\"b\"],[\"a\"],[\"b\"],[\"b\"],[\"b\"],[\"b\"],[\"a\"],[\"b\"],[\"a\"],[\"b\"],[\"a\"],[\"a\"],[\"a\"],[\"b\"],[\"a\"],[\"a\"],[\"a\"]".replaceAll("(\\[|])", "") + "]");
+        int length = methods.length;
+        for (int i = 0; i < length; ++i) {
+            Utils.invokeMethodOnSpecificObj(streamChecker, methods[i], new Object[]{params[i]}, new Class<?>[] {char.class});
+        }
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)

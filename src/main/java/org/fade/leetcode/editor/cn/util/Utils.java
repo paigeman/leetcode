@@ -4,6 +4,8 @@ import org.fade.leetcode.editor.cn.TreeNode;
 import org.fade.leetcode.editor.cn.graph.Node;
 import org.fade.leetcode.editor.cn.list.ListNode;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.*;
 import java.util.function.Function;
 import java.util.regex.Matcher;
@@ -37,6 +39,32 @@ public class Utils {
         String substring = param.substring(1, param.length() - 1);
         String[] split = substring.split("(?<=\") *, *(?=\")");
         return Arrays.stream(split).map(x -> x.substring(1, x.length() - 1)).toArray(String[]::new);
+    }
+
+    public static char[] parseToCharArrayFromString(String param) {
+        String substring = param.substring(1, param.length() - 1);
+        String[] split = substring.split("(?<=\") *, *(?=\")");
+        int length = split.length;
+        char[] ans = new char[length];
+        for (int i = 0; i < length; ++i) {
+            ans[i] = split[i].charAt(1);
+        }
+        return ans;
+    }
+
+    public static void invokeMethodOnSpecificObj(Object obj, String methodName, Object[] params, Class<?>[] paramTypes) {
+        Class<?> objClass = obj.getClass();
+        Method method;
+        try {
+            method = objClass.getDeclaredMethod(methodName, paramTypes);
+            method.setAccessible(true);
+            Object invoke = method.invoke(obj, params);
+            if (invoke != null) {
+                System.out.println(invoke);
+            }
+        } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static int[][] parseToIntArrayArrayFromString(String param) {
