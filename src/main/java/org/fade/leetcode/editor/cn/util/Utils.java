@@ -35,7 +35,7 @@ public class Utils {
 
     public static String[] parseToStringArrayFromString(String param) {
         String substring = param.substring(1, param.length() - 1);
-        String[] split = substring.split("(?<=\"),(?=\")");
+        String[] split = substring.split("(?<=\") *, *(?=\")");
         return Arrays.stream(split).map(x -> x.substring(1, x.length() - 1)).toArray(String[]::new);
     }
 
