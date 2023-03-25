@@ -443,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DeleteNodeInALinkedListMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/DeleteNodeInALinkedListMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn237" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DeleteNodeInALinkedListMain.java" />
+              <option name="titleSlug" value="delete-node-in-a-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/DepartmentHighestSalary.sql">
           <value>
             <LeetcodeEditor>
