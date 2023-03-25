@@ -1180,6 +1180,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ProductOfArrayExceptSelfMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ProductOfArrayExceptSelfMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn238" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ProductOfArrayExceptSelfMain.java" />
+              <option name="titleSlug" value="product-of-array-except-self" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/RankScores.sql">
           <value>
             <LeetcodeEditor>
@@ -1301,6 +1312,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SearchA2dMatrixIiMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SearchA2dMatrixIiMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn240" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SearchA2dMatrixIiMain.java" />
+              <option name="titleSlug" value="search-a-2d-matrix-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SecondHighestSalary.sql">
           <value>
             <LeetcodeEditor>
@@ -1353,6 +1375,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SingleNumber.java" />
               <option name="titleSlug" value="single-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SlidingWindowMaximumMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SlidingWindowMaximumMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn239" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SlidingWindowMaximumMain.java" />
+              <option name="titleSlug" value="sliding-window-maximum" />
             </LeetcodeEditor>
           </value>
         </entry>
