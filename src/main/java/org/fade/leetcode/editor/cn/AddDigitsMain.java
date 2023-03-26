@@ -42,13 +42,22 @@ public class AddDigitsMain {
       
     public static void main(String[] args) {
         Solution solution = new AddDigitsMain().new Solution();
+        solution.addDigits(100);
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
         public int addDigits(int num) {
-    
+            while (num / 10 != 0) {
+                int tmp = 0;
+                while ((num + 9)/ 10 != 0) {
+                    tmp += num % 10;
+                    num /= 10;
+                }
+                num = tmp;
+            }
+            return num;
         }
 
     }
