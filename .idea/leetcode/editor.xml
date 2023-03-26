@@ -14,6 +14,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/AddDigitsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/AddDigitsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn258" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/AddDigitsMain.java" />
+              <option name="titleSlug" value="add-digits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ArithmeticSubarraysMain.java">
           <value>
             <LeetcodeEditor>
@@ -627,6 +638,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindPeakElementMain.java" />
               <option name="titleSlug" value="find-peak-element" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindSubarraysWithEqualSumMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/FindSubarraysWithEqualSumMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2395" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindSubarraysWithEqualSumMain.java" />
+              <option name="titleSlug" value="find-subarrays-with-equal-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
