@@ -762,6 +762,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/IntegerToEnglishWordsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/IntegerToEnglishWordsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn273" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/IntegerToEnglishWordsMain.java" />
+              <option name="titleSlug" value="integer-to-english-words" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/IntersectionOfTwoLinkedListsMain.java">
           <value>
             <LeetcodeEditor>

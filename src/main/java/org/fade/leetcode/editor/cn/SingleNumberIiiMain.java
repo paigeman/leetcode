@@ -53,7 +53,13 @@ public class SingleNumberIiiMain {
     class Solution {
         public int[] singleNumber(int[] nums) {
             int[] ans = new int[2];
+            int xor = 0;
+            for (int num: nums) {
+                xor ^= num;
+            }
+            for (int num: nums) {
 
+            }
             return ans;
         }
     }
