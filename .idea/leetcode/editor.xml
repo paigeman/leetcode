@@ -597,6 +597,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ExpressionAddOperatorsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ExpressionAddOperatorsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn282" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ExpressionAddOperatorsMain.java" />
+              <option name="titleSlug" value="expression-add-operators" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FactorialTrailingZeroesMain.java">
           <value>
             <LeetcodeEditor>
