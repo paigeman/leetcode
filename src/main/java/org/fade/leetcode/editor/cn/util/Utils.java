@@ -25,6 +25,8 @@ public class Utils {
 
     private static final String NULL_STR = "null";
 
+    private static final String EMPTY_STR = "";
+
     public static int[] parseToArrayFromString(String param) {
         String substring = param.substring(1, param.length() - 1);
         String[] split = substring.split(",");
@@ -107,7 +109,7 @@ public class Utils {
         String substring = param.substring(1, param.length() - 1);
         String[] split = substring.split(",");
         TreeNode root = null;
-        if (split.length >= 1 && !split[0].equals(NULL_STR)) {
+        if (split.length >= 1 && !split[0].equals(NULL_STR) && !split[0].trim().equals(EMPTY_STR)) {
             root = new TreeNode(Integer.parseInt(split[0]));
             Queue<TreeNode> queue = new LinkedList<>();
             queue.offer(root);
@@ -120,11 +122,15 @@ public class Utils {
                         TreeNode left = new TreeNode(Integer.parseInt(split[index++]));
                         poll.left = left;
                         queue.offer(left);
+                    } else {
+                        ++index;
                     }
                     if (poll != null && index < split.length && !split[index].equals(NULL_STR)) {
                         TreeNode right = new TreeNode(Integer.parseInt(split[index++]));
                         poll.right = right;
                         queue.offer(right);
+                    } else {
+                        ++index;
                     }
                 }
             }
