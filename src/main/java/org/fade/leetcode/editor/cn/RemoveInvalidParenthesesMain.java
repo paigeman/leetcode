@@ -42,19 +42,61 @@
   
 package org.fade.leetcode.editor.cn;
 
-import java.util.List;
+import java.util.*;
 
 public class RemoveInvalidParenthesesMain {
       
     public static void main(String[] args) {
         Solution solution = new RemoveInvalidParenthesesMain().new Solution();
+        solution.removeInvalidParentheses("n");
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public List<String> removeInvalidParentheses(String s) {
-    
+            // fixme timeout
+            Set<String> ans = new HashSet<>(8);
+            Queue<String> queue = new LinkedList<>();
+            queue.offer(s);
+            while (!queue.isEmpty() && ans.isEmpty()) {
+                int size = queue.size();
+                for (int i = 0; i < size; ++i) {
+                    String poll = queue.poll();
+                    if (poll != null) {
+                        if (isValid(poll)) {
+                            ans.add(poll);
+                            continue;
+                        }
+                        for (int j = 0; j < poll.length(); ++j) {
+                            StringBuilder builder = new StringBuilder();
+                            builder.append(poll, 0, j)
+                                    .append(poll, j + 1, poll.length());
+                            if (isValid(builder.toString())) {
+                                ans.add(builder.toString());
+                            } else {
+                                queue.offer(builder.toString());
+                            }
+                        }
+                    }
+                }
+            }
+            return new ArrayList<>(ans);
         }
+
+        private boolean isValid(String s) {
+            int val = 0;
+            for (int i = 0; i < s.length() && val >= 0; ++i) {
+                char c = s.charAt(i);
+                if (c == '(') {
+                    ++val;
+                } else if (c == ')') {
+                    --val;
+                }
+            }
+            return val == 0;
+        }
+
     }
     //leetcode submit region end(Prohibit modification and deletion)
         
