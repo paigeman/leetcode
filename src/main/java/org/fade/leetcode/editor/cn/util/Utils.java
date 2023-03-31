@@ -29,7 +29,7 @@ public class Utils {
 
     public static int[] parseToArrayFromString(String param) {
         String substring = param.substring(1, param.length() - 1);
-        String[] split = substring.split(",");
+        String[] split = substring.split("\\s*,\\s*");
         int[] ans = new int[split.length];
         for (int i = 0; i < split.length; ++i) {
             ans[i] = Integer.parseInt(split[i]);

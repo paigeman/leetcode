@@ -57,22 +57,56 @@ import org.fade.leetcode.editor.cn.util.Utils;
 public class RangeSumQueryMutableMain {
       
     public static void main(String[] args) {
-        NumArray solution = new RangeSumQueryMutableMain().new NumArray(Utils.parseToArrayFromString("[1, 3, 5]"));
+        NumArray numArray = new RangeSumQueryMutableMain().new NumArray(Utils.parseToArrayFromString("[1, 3, 5]"));
+        // 返回 1 + 3 + 5 = 9
+        System.out.println(numArray.sumRange(0, 2));
+        // nums = [1,2,5]
+        numArray.update(1, 2);
+        // 返回 1 + 2 + 5 = 8
+        System.out.println(numArray.sumRange(0, 2));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
     class NumArray {
+
+        private final int[] c;
+
+        private final int[] nums;
     
         public NumArray(int[] nums) {
-    
+            int length = nums.length;
+            this.c = new int[length + 1];
+            this.nums = new int[length + 1];
+            for (int i = 0; i < length; ++i) {
+                this.update(i, nums[i]);
+            }
         }
         
         public void update(int index, int val) {
-    
+            ++index;
+            int k = val - this.nums[index];
+            this.nums[index] = val;
+            while (index < this.c.length) {
+                this.c[index] += k;
+                index += this.lowBit(index);
+            }
         }
         
         public int sumRange(int left, int right) {
-    
+            return this.getSum(right + 1) - this.getSum(left);
+        }
+
+        private int getSum(int index) {
+            int ans = 0;
+            while (index >= 1) {
+                ans += this.c[index];
+                index -= lowBit(index);
+            }
+            return ans;
+        }
+
+        private int lowBit(int x) {
+            return x & (-x);
         }
 
     }
