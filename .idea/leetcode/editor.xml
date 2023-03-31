@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/AdditiveNumberMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/AdditiveNumberMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn306" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/AdditiveNumberMain.java" />
+              <option name="titleSlug" value="additive-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ArithmeticSubarraysMain.java">
           <value>
             <LeetcodeEditor>
@@ -1279,6 +1290,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NumberOfArithmeticTripletsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/NumberOfArithmeticTripletsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2367" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NumberOfArithmeticTripletsMain.java" />
+              <option name="titleSlug" value="number-of-arithmetic-triplets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NumberOfDigitOneMain.java">
           <value>
             <LeetcodeEditor>
@@ -1430,6 +1452,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/RangeSumQueryImmutableMain.java" />
               <option name="titleSlug" value="range-sum-query-immutable" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/RangeSumQueryMutableMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/RangeSumQueryMutableMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn307" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/RangeSumQueryMutableMain.java" />
+              <option name="titleSlug" value="range-sum-query-mutable" />
             </LeetcodeEditor>
           </value>
         </entry>
