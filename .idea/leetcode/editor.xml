@@ -1114,6 +1114,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaskingPersonalInformationMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MaskingPersonalInformationMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn831" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaskingPersonalInformationMain.java" />
+              <option name="titleSlug" value="masking-personal-information" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaxPointsOnALine.java">
           <value>
             <LeetcodeEditor>
