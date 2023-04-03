@@ -1103,6 +1103,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LongestIncreasingPathInAMatrixMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/LongestIncreasingPathInAMatrixMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn329" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LongestIncreasingPathInAMatrixMain.java" />
+              <option name="titleSlug" value="longest-increasing-path-in-a-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LongestIncreasingSubsequenceMain.java">
           <value>
             <LeetcodeEditor>
