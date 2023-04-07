@@ -1895,6 +1895,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseVowelsOfAStringMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ReverseVowelsOfAStringMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn345" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseVowelsOfAStringMain.java" />
+              <option name="titleSlug" value="reverse-vowels-of-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseWordsInAString.java">
           <value>
             <LeetcodeEditor>
