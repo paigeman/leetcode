@@ -1620,6 +1620,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NumberOfStepsToReduceANumberToZeroMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/NumberOfStepsToReduceANumberToZeroMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1342" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NumberOfStepsToReduceANumberToZeroMain.java" />
+              <option name="titleSlug" value="number-of-steps-to-reduce-a-number-to-zero" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/NumbersWithRepeatedDigitsMain.java">
           <value>
             <LeetcodeEditor>
