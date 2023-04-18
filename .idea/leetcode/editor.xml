@@ -476,6 +476,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CountDaysSpentTogetherMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/CountDaysSpentTogetherMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2409" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CountDaysSpentTogetherMain.java" />
+              <option name="titleSlug" value="count-days-spent-together" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CountOfRangeSumMain.java">
           <value>
             <LeetcodeEditor>
@@ -1378,6 +1389,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaximumDifferenceBetweenNodeAndAncestorMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MaximumDifferenceBetweenNodeAndAncestorMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1026" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaximumDifferenceBetweenNodeAndAncestorMain.java" />
+              <option name="titleSlug" value="maximum-difference-between-node-and-ancestor" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MaximumGapMain.java">
           <value>
             <LeetcodeEditor>
@@ -1672,6 +1694,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/OddEvenLinkedListMain.java" />
               <option name="titleSlug" value="odd-even-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/OnlineMajorityElementInSubarrayMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/OnlineMajorityElementInSubarrayMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1157" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/OnlineMajorityElementInSubarrayMain.java" />
+              <option name="titleSlug" value="online-majority-element-in-subarray" />
             </LeetcodeEditor>
           </value>
         </entry>
