@@ -1334,6 +1334,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MakeArrayStrictlyIncreasingMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MakeArrayStrictlyIncreasingMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1187" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MakeArrayStrictlyIncreasingMain.java" />
+              <option name="titleSlug" value="make-array-strictly-increasing" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MakeSumDivisibleByP.java">
           <value>
             <LeetcodeEditor>
@@ -1749,6 +1760,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PalindromePartitioningIi.java" />
               <option name="titleSlug" value="palindrome-partitioning-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PartitionArrayForMaximumSumMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/PartitionArrayForMaximumSumMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1043" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PartitionArrayForMaximumSumMain.java" />
+              <option name="titleSlug" value="partition-array-for-maximum-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2200,6 +2222,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SlidingWindowMaximumMain.java" />
               <option name="titleSlug" value="sliding-window-maximum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SmallestEvenMultipleMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/SmallestEvenMultipleMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2413" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SmallestEvenMultipleMain.java" />
+              <option name="titleSlug" value="smallest-even-multiple" />
             </LeetcodeEditor>
           </value>
         </entry>
