@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/AsFarFromLandAsPossibleMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/AsFarFromLandAsPossibleMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1162" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/AsFarFromLandAsPossibleMain.java" />
+              <option name="titleSlug" value="as-far-from-land-as-possible" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/BasicCalculatorIiMain.java">
           <value>
             <LeetcodeEditor>
@@ -751,6 +762,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ErChaShuRanSeUGCMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ErChaShuRanSeUGCMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCP 34" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ErChaShuRanSeUGCMain.java" />
+              <option name="titleSlug" value="er-cha-shu-ran-se-UGC" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/EvaluateReversePolishNotation.java">
           <value>
             <LeetcodeEditor>
@@ -1334,6 +1356,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MagneticForceBetweenTwoBallsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MagneticForceBetweenTwoBallsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1552" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MagneticForceBetweenTwoBallsMain.java" />
+              <option name="titleSlug" value="magnetic-force-between-two-balls" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MajorityElementIiMain.java">
           <value>
             <LeetcodeEditor>
@@ -1488,6 +1521,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MeetingRoomsIiiMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MeetingRoomsIiiMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2402" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MeetingRoomsIiiMain.java" />
+              <option name="titleSlug" value="meeting-rooms-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MinStackMain.java">
           <value>
             <LeetcodeEditor>
@@ -1540,6 +1584,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MinimumHoursOfTrainingToWinACompetitionMain.java" />
               <option name="titleSlug" value="minimum-hours-of-training-to-win-a-competition" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MinimumMovesToMoveABoxToTheirTargetLocationMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/MinimumMovesToMoveABoxToTheirTargetLocationMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1263" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/MinimumMovesToMoveABoxToTheirTargetLocationMain.java" />
+              <option name="titleSlug" value="minimum-moves-to-move-a-box-to-their-target-location" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1804,6 +1859,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PartitionArrayForMaximumSumMain.java" />
               <option name="titleSlug" value="partition-array-for-maximum-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PartitionToKEqualSumSubsetsMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/PartitionToKEqualSumSubsetsMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn698" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PartitionToKEqualSumSubsetsMain.java" />
+              <option name="titleSlug" value="partition-to-k-equal-sum-subsets" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2222,6 +2288,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ShortestSubarrayToBeRemovedToMakeArraySortedMain.java" />
               <option name="titleSlug" value="shortest-subarray-to-be-removed-to-make-array-sorted" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ShuffleStringMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ShuffleStringMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1528" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ShuffleStringMain.java" />
+              <option name="titleSlug" value="shuffle-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -2684,6 +2761,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/WordSearchMain.java" />
               <option name="titleSlug" value="word-search" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ZiFuChuanDePaiLieLcofMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ZiFuChuanDePaiLieLcofMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 38" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ZiFuChuanDePaiLieLcofMain.java" />
+              <option name="titleSlug" value="zi-fu-chuan-de-pai-lie-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
