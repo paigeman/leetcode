@@ -1323,6 +1323,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LongestRepeatingCharacterReplacementMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/LongestRepeatingCharacterReplacementMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn424" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LongestRepeatingCharacterReplacementMain.java" />
+              <option name="titleSlug" value="longest-repeating-character-replacement" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/LongestSubsequenceWithLimitedSumMain.java">
           <value>
             <LeetcodeEditor>
