@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ApplyOperationsToAnArrayMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ApplyOperationsToAnArrayMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2460" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ApplyOperationsToAnArrayMain.java" />
+              <option name="titleSlug" value="apply-operations-to-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ArithmeticSubarraysMain.java">
           <value>
             <LeetcodeEditor>
