@@ -1895,6 +1895,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PalindromeNumberMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/PalindromeNumberMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn9" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PalindromeNumberMain.java" />
+              <option name="titleSlug" value="palindrome-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PalindromePairsMain.java">
           <value>
             <LeetcodeEditor>
@@ -4615,10 +4626,10 @@
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[9]回文数.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/[9]回文数.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/PalindromeNumberMain.md" />
               <option name="frontendQuestionId" value="leetcode.cn9" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[9]回文数.java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/PalindromeNumberMain.java" />
               <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
