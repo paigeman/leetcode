@@ -2203,6 +2203,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseIntegerMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ReverseIntegerMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn7" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseIntegerMain.java" />
+              <option name="titleSlug" value="reverse-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseLinkedListMain.java">
           <value>
             <LeetcodeEditor>
@@ -2871,6 +2882,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ZiFuChuanDePaiLieLcofMain.java" />
               <option name="titleSlug" value="zi-fu-chuan-de-pai-lie-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ZigzagConversionMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ZigzagConversionMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn6" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ZigzagConversionMain.java" />
+              <option name="titleSlug" value="zigzag-conversion" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -4219,10 +4241,10 @@
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[6]Z 字形变换.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/[6]Z 字形变换.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ZigzagConversionMain.md" />
               <option name="frontendQuestionId" value="leetcode.cn6" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[6]Z 字形变换.java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ZigzagConversionMain.java" />
               <option name="titleSlug" value="zigzag-conversion" />
             </LeetcodeEditor>
           </value>
@@ -4340,10 +4362,10 @@
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[7]整数反转.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/[7]整数反转.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ReverseIntegerMain.md" />
               <option name="frontendQuestionId" value="leetcode.cn7" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[7]整数反转.java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ReverseIntegerMain.java" />
               <option name="titleSlug" value="reverse-integer" />
             </LeetcodeEditor>
           </value>
