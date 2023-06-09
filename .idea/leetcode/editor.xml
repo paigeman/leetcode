@@ -2489,6 +2489,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/StringToIntegerAtoiMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/StringToIntegerAtoiMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn8" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/StringToIntegerAtoiMain.java" />
+              <option name="titleSlug" value="string-to-integer-atoi" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/SumRootToLeafNumbers.java">
           <value>
             <LeetcodeEditor>
@@ -4483,10 +4494,10 @@
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[8]字符串转换整数 (atoi).java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/[8]字符串转换整数 (atoi).md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/StringToIntegerAtoiMain.md" />
               <option name="frontendQuestionId" value="leetcode.cn8" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[8]字符串转换整数 (atoi).java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/StringToIntegerAtoiMain.java" />
               <option name="titleSlug" value="string-to-integer-atoi" />
             </LeetcodeEditor>
           </value>
