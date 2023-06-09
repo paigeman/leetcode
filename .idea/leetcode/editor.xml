@@ -421,6 +421,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ContainerWithMostWaterMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ContainerWithMostWaterMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn11" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ContainerWithMostWaterMain.java" />
+              <option name="titleSlug" value="container-with-most-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ContainsDuplicateIiMain.java">
           <value>
             <LeetcodeEditor>
@@ -3207,10 +3218,10 @@
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[11]盛最多水的容器.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/[11]盛最多水的容器.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ContainerWithMostWaterMain.md" />
               <option name="frontendQuestionId" value="leetcode.cn11" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[11]盛最多水的容器.java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ContainerWithMostWaterMain.java" />
               <option name="titleSlug" value="container-with-most-water" />
             </LeetcodeEditor>
           </value>
