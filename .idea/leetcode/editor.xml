@@ -388,6 +388,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CompareStringsByFrequencyOfTheSmallestCharacterMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/CompareStringsByFrequencyOfTheSmallestCharacterMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1170" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CompareStringsByFrequencyOfTheSmallestCharacterMain.java" />
+              <option name="titleSlug" value="compare-strings-by-frequency-of-the-smallest-character" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CompareVersionNumbersMain.java">
           <value>
             <LeetcodeEditor>
