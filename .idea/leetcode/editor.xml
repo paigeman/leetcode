@@ -1213,6 +1213,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/KthAncestorOfATreeNodeMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/KthAncestorOfATreeNodeMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1483" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/KthAncestorOfATreeNodeMain.java" />
+              <option name="titleSlug" value="kth-ancestor-of-a-tree-node" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/KthLargestElementInAnArrayMain.java">
           <value>
             <LeetcodeEditor>
