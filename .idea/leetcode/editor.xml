@@ -289,6 +289,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CanMakePalindromeFromSubstringMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/CanMakePalindromeFromSubstringMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1177" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/CanMakePalindromeFromSubstringMain.java" />
+              <option name="titleSlug" value="can-make-palindrome-from-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/Candy.java">
           <value>
             <LeetcodeEditor>
