@@ -894,6 +894,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindLongestAwesomeSubstringMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/FindLongestAwesomeSubstringMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1542" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindLongestAwesomeSubstringMain.java" />
+              <option name="titleSlug" value="find-longest-awesome-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindLongestSubarrayLcci.java">
           <value>
             <LeetcodeEditor>
