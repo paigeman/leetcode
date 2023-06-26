@@ -1004,6 +1004,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindThePivotIntegerMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/FindThePivotIntegerMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2485" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindThePivotIntegerMain.java" />
+              <option name="titleSlug" value="find-the-pivot-integer" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/FindValidMatrixGivenRowAndColumnSumsMain.java">
           <value>
             <LeetcodeEditor>
