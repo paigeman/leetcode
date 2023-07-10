@@ -2698,6 +2698,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ThreeSumClosestMain.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ThreeSumClosestMain.md" />
+              <option name="frontendQuestionId" value="leetcode.cn16" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ThreeSumClosestMain.java" />
+              <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/TimeNeededToInformAllEmployeesMain.java">
           <value>
             <LeetcodeEditor>
@@ -3537,10 +3548,10 @@
         <entry key="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[16]最接近的三数之和.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/[16]最接近的三数之和.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/doc/content/ThreeSumClosestMain.md" />
               <option name="frontendQuestionId" value="leetcode.cn16" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/[16]最接近的三数之和.java" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/fade/leetcode/editor/cn/ThreeSumClosestMain.java" />
               <option name="titleSlug" value="3sum-closest" />
             </LeetcodeEditor>
           </value>
